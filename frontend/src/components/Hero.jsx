@@ -1,13 +1,13 @@
 function Hero() {
   return (
-    <div>
-      <h1>Learn Languages Online</h1>
+    <div style={{textAlign:"center",padding:"80px"}}>
+      <h1>Learn Languages Anywhere</h1>
 
       <p>
-        Master English, Japanese, Korean, Spanish and more.
+        Learn English, Japanese, Korean, Spanish and more.
       </p>
 
-      <button>Get Started</button>
+      <button>Start Learning</button>
     </div>
   );
 }
