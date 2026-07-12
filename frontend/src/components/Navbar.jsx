@@ -1,14 +1,16 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
-    <nav>
+    <nav style={{padding:"20px",display:"flex",justifyContent:"space-between"}}>
       <h2>LinguaLearn</h2>
 
-      <ul>
-        <li>Home</li>
-        <li>Courses</li>
-        <li>Login</li>
-        <li>Register</li>
-      </ul>
+      <div>
+        <Link to="/">Home </Link>
+        <Link to="/courses">Courses </Link>
+        <Link to="/login">Login </Link>
+        <Link to="/register">Register</Link>
+      </div>
     </nav>
   );
 }
