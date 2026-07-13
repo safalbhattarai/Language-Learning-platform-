@@ -1,23 +1,25 @@
+import loginImage from "../assets/login.jpg";
 import "./Login.css";
 
 function Login() {
   return (
-    <div className="login-page">
+    <div className="login-container">
 
-      <div className="login-left">
-        <h1>Welcome Back</h1>
-        <p>Continue your language learning journey.</p>
+      <div className="login-image">
+        <img src={loginImage} alt="Login" />
       </div>
 
-      <div className="login-right">
+      <div className="login-form-section">
 
         <form className="login-form">
 
-          <h2>Login</h2>
+          <h1>Welcome Back</h1>
+
+          <p>Continue your language journey.</p>
 
           <input
             type="email"
-            placeholder="Email"
+            placeholder="Email Address"
           />
 
           <input
