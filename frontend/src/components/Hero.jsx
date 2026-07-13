@@ -1,18 +1,24 @@
+import hero from "../assets/hero.jpg";
 import "./Hero.css";
 
 function Hero() {
   return (
-    <div className="hero">
+    <section className="hero-section">
       <div className="hero-content">
-        <h1>Learn Languages Faster Than Ever</h1>
+        <h1>Master New Languages With Confidence</h1>
 
         <p>
-          Master English, Japanese, Korean, Chinese and more with interactive lessons.
+          Learn English, Japanese, Korean and more through interactive lessons,
+          quizzes and real-world practice.
         </p>
 
-        <button>Start Learning</button>
+        <button>Start Learning Today</button>
       </div>
-    </div>
+
+      <div className="hero-image">
+        <img src={hero} alt="Language Learning" />
+      </div>
+    </section>
   );
 }
 
