@@ -1,7 +1,7 @@
 import english from "../assets/english.jpg";
 import japanese from "../assets/japanese.jpg";
 import korean from "../assets/korean.jpg";
-
+import "./Courses.css";
 function Courses() {
   const courses = [
     {
