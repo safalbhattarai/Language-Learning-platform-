@@ -5,6 +5,8 @@ import Features from "../components/Features";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 import CoursesPreview from "../components/CoursesPreview";
+import TrustedBy from "../components/TrustedBy";
+import CallToAction from "../components/CallToAction";
 
 function Home() {
   return (
