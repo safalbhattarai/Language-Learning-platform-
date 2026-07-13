@@ -1,15 +1,38 @@
+import "./Login.css";
+
 function Login() {
   return (
-    <div>
-      <h1>Login</h1>
+    <div className="login-page">
 
-      <input type="email" placeholder="Email" />
-      <br /><br />
+      <div className="login-left">
+        <h1>Welcome Back</h1>
+        <p>Continue your language learning journey.</p>
+      </div>
 
-      <input type="password" placeholder="Password" />
-      <br /><br />
+      <div className="login-right">
 
-      <button>Login</button>
+        <form className="login-form">
+
+          <h2>Login</h2>
+
+          <input
+            type="email"
+            placeholder="Email"
+          />
+
+          <input
+            type="password"
+            placeholder="Password"
+          />
+
+          <button>
+            Login
+          </button>
+
+        </form>
+
+      </div>
+
     </div>
   );
 }
