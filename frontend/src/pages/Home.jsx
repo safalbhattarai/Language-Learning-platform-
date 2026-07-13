@@ -10,14 +10,18 @@ import CallToAction from "../components/CallToAction";
 
 function Home() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-      <Languages />
-      <Features />
-      <CoursesPreview />
-      <Testimonials />
-      <Footer />
+    
+      <>
+  <Navbar />
+  <Hero />
+  <TrustedBy />
+  <Languages />
+  <Features />
+  <CoursesPreview />
+  <Testimonials />
+  <CallToAction />
+  <Footer />
+
       
     </>
   );
