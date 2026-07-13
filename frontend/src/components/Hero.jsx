@@ -12,12 +12,20 @@ function Hero() {
           quizzes and real-world practice.
         </p>
 
-        <button>Start Learning Today</button>
+       <div className="hero-buttons">
+  <button>Start Learning</button>
+
+  <button className="secondary-btn">
+    Watch Demo
+  </button>
+</div>
       </div>
 
       <div className="hero-image">
         <img src={hero} alt="Language Learning" />
       </div>
+
+      
     </section>
   );
 }
