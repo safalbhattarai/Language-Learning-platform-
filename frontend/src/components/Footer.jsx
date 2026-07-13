@@ -1,7 +1,23 @@
 function Footer() {
   return (
-    <footer style={{textAlign:"center",padding:"20px"}}>
-      <p>© 2026 LinguaLearn</p>
+    <footer
+      style={{
+        background:"#111827",
+        color:"white",
+        padding:"40px",
+        textAlign:"center"
+      }}
+    >
+      <h2>LinguaLearn</h2>
+
+      <p>
+        Learn languages from anywhere in the world.
+      </p>
+
+      <p>
+        © 2026 LinguaLearn. All Rights Reserved.
+      </p>
+
     </footer>
   );
 }
