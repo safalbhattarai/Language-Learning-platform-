@@ -1,13 +1,17 @@
+import "./Hero.css";
+
 function Hero() {
   return (
-    <div style={{textAlign:"center",padding:"80px"}}>
-      <h1>Learn Languages Anywhere</h1>
+    <div className="hero">
+      <div className="hero-content">
+        <h1>Learn Languages Faster Than Ever</h1>
 
-      <p>
-        Learn English, Japanese, Korean, Spanish and more.
-      </p>
+        <p>
+          Master English, Japanese, Korean, Chinese and more with interactive lessons.
+        </p>
 
-      <button>Start Learning</button>
+        <button>Start Learning</button>
+      </div>
     </div>
   );
 }
